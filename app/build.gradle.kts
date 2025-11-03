@@ -41,6 +41,9 @@ android {
 
 dependencies {
 
+    //to use functions of network module, we need to import it as an external library
+    implementation(project(":network"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
